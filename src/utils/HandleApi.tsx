@@ -1,7 +1,7 @@
 import axios from "axios";
 import { Dispatch, SetStateAction } from "react";
 
-const baseUrl = "https://backend-to-do.vercel.app/";
+const baseUrl = "https://backend-to-do.vercel.app";
 
 const getAllToDo = (setToDo: {
 	(value: SetStateAction<{ _id: number; text: string }[]>): void;
